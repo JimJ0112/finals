@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<Foods> 
+
+<Food>
+<Name>Beef Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>Chicken Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Fish Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Chicken Zinger Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Fish Zinger Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>Chicken Broast </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+<Food>
+<Name>Beef Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>C </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>F</Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Chr </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Fishurger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>ChicBroast </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+<Food>
+<Name>Chicken Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Fish Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Chicken Zinger Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Fish Zinger Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>Chicken Broast </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+<Food>
+<Name>Beef Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>C </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>F</Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Chr </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Fishurger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>ChicBroast </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+
+</Foods>

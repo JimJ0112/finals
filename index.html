@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheesy Fast Food Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="short icon" type="image/png" href="LOGO.png">
+
+    <script type="text/javascript" src="G3js.js">
+  
+    </script>
+
+</head>
+<body>
+
+	<!-- <div class="backgroundDiv"> -->
+		<!-- <img src="Background.jpg" alt="background image"> -->
+		<div id="form">
+			<div><img id="logo" src="LOGO.png" alt="Logo"></div>
+			<hr>
+			<div id="welcome"><label>WELCOME!</label></div>
+
+			<div id="about"><label id="about_text">We are providing fresh fast food on 50% discount, which cares your health as well as money. There is no compromise in Taste which makes you happy and healthy. All the foods are delicious here. 
+			So what are you waiting for? Grab yours now !!!</label>
+
+			<br>
+			<center> <button onclick="ChangeColor()"> Change color </button></center>
+		</div>
+
+			
+		</div>
+
+		<div id="bar">
+			<div id="home" style="color: red; font-family: calibri; font-size: 18pt; text-align: center;"><label>HOME</label></div>
+			<div id="menu"><a href="menu.html"><label>MENU</label></a></div>	
+			<div id="info"><a href="menu_details.html"><label>INFORMATION</label></a></div>					
+			<div id="contact"><a href="contact_us.html"><label>ABOUT US</label></a></div>
+			<div id="sign"><a href="sign_up.html"><label>SIGN UP</label></a></div>
+		</div>
+
+		<div id="deals">
+			<h1 id="h1" style="color: #ff9800; font-family: calibri; text-align: center; font-size: 28pt; text-transform: uppercase;">Best Deals! </h1>		
+			
+			<div id="f_deal">
+				<img id="f_pic" src="Family Deal.jpg">
+				<div id="over" onclick="ShowModal1()">
+					<button id="of">SHOW DETAILS </button>	
+
+					
+					
+				</div>
+			</div>
+
+			<div id="s_deal">
+				<img id="s_pic" src="Family Deal 2.jpg">
+				<div id="over2" onclick="ShowModal2()">
+					<button id="of1">SHOW DETAILS</>
+					
+				</div>
+			</div>
+
+
+
+		</div>
+	<!-- </div> -->
+
+
+<!-- Modals -->
+    			<div id="modal1">
+    				<div id="content1">
+    				<button onclick="CloseModal1()" style="margin-left: 99.5%; margin-top:0%;"> X </button>
+    				<center>
+					<h1>4 Burger<br>4 Regular Fries<br>4 Regular Coca Cola<br>4 Cornetto<br><del> Price 15$</del><br><ins>Only 12$</ins></h1>
+					</center>	
+				</div>
+				</div>
+
+				<div id="modal2">
+    				<div id="content2">
+    				<button onclick="CloseModal2()" style="margin-left: 99.5%; margin-top:0%;"> X </button>
+    				<center>
+					<h1>2 Zinger Burger<br>1 Club Sandwich<br>1 Chicken Burger<br>1 Qtr Broast<br>1 Regular Fries<br>1.5 Litre Pepsi<br><del>Price 20$</del><br><ins>Only 15$</ins></h1>
+					</center>	
+				</div>
+				</div>
+</body>
+</html>
