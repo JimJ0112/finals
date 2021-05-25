@@ -8,19 +8,19 @@ body{
 	width: 97%;
 	height: 90%;
 	border: 1px solid white;
-	background-color: white;
+	
 	color: white;	
 	position: absolute;
 	top: 20%;
 	padding: 10px;
-		overflow-y: scroll;
+	overflow-y: scroll;
 	overflow-x: scroll;
 }
 #menudetails_DataContainer{
 		width: 100%;
 	height: 70%;
 	border: 1px solid white;
-	background-color: white;
+	
 	overflow-y: scroll;
 	overflow-x: scroll;
 }
