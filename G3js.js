@@ -211,9 +211,9 @@ function findClass(xml){
         //table dom propoerties
         table.style.overflow = "auto";
         dataContainer.style.overflow = "auto";
-        
-        table.style.backgroundColor = "#E0C168";
-        row.style.border="1px solid black";
+        cell.style.backgroundColor="white";
+       
+        cell.style.border="1px solid black";
         
     }
 
