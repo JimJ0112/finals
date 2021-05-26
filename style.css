@@ -3,34 +3,6 @@ body{
 	background-size: 1380px 700px;
 }
 
-/*menu_details*/
-#menudetails_Container{
-	width: 97%;
-	height: 90%;
-	border: 1px solid white;
-	
-	
-	position: absolute;
-	top: 20%;
-	padding: 10px;
-	overflow-y: scroll;
-	overflow-x: scroll;
-}
-#menudetails_DataContainer{
-		width: 100%;
-	height: 70%;
-	border: 1px solid white;
-	
-	overflow-y: scroll;
-	overflow-x: scroll;
-}
-
-#dataTable{
-	width: 100%;
-	background-color: white;
-	align-content: center;
-
-}
 
 
 .backgroundDiv img{
@@ -779,3 +751,31 @@ textarea{
 	background: #e28d26;
 }
 
+/*menu_details*/
+#menudetails_Container{
+	width: 97%;
+	height: 90%;
+	border: 1px solid white;
+	
+	
+	position: absolute;
+	top: 20%;
+	padding: 10px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+#menudetails_DataContainer{
+		width: 100%;
+	height: 70%;
+	border: 1px solid white;
+	
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+#dataTable{
+	width: 100%;
+	background-color: white;
+	align-content: center;
+
+}

@@ -226,6 +226,7 @@ button1.disabled = true;
 function dropdown(){
     document.getElementById('displaydata').disabled = false;
    var table = document.getElementById('dataTable');
-    document.getElementsByTagName('tr').innerHTML = "";
+   table.innerHTML = "";
+    
 }
 
