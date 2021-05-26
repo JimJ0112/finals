@@ -227,6 +227,7 @@ function dropdown(){
     document.getElementById('displaydata').disabled = false;
    var table = document.getElementById('dataTable');
    table.innerHTML = "";
+   //getDoc();
     
 }
 
