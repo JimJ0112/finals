@@ -33,7 +33,7 @@
 </Food>
 
 
-<Food category = "Chicken  Broast">
+<Food category = "Chicken Broast">
 <Name>Chicken Broast </Name>
 <Available> 590</Available>
 <inStock> 450</inStock>

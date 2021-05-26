@@ -239,10 +239,10 @@ button1.disabled = true;
 }
 
 function dropdown(){
-    document.getElementById('displaydata').disabled = false;
+    //document.getElementById('displaydata').disabled = false;
    var table = document.getElementById('dataTable');
    table.innerHTML = "";
-   //getDoc();
+   getDoc();
     
 }
 
