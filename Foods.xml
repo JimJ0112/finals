@@ -1,69 +1,71 @@
 <?xml version="1.0"?>
 <Foods> 
 
-<Food>
-<Name>Beef Burger </Name>
+<Food category = "Beef Burger"> 
+<Name >Beef Burger </Name>
 <Available> 500</Available>
-<inStock> 750</inStock>
+<inStock> 75</inStock>
 </Food>
 
 
-<Food>
-<Name>Chicken Burger </Name>
-<Available> 500</Available>
+<Food category = "Chicken Burger">
+<Name >Chicken Burger </Name>
+<Available> 50</Available>
 <inStock> 750</inStock>
 </Food>
 
-<Food>
+<Food category = "Fish Burger">
 <Name>Fish Burger </Name>
-<Available> 500</Available>
-<inStock> 750</inStock>
+<Available> 100</Available>
+<inStock> 90</inStock>
 </Food>
 
-<Food>
+<Food category = "Chicken Zinger Burger">
 <Name>Chicken Zinger Burger </Name>
-<Available> 500</Available>
-<inStock> 750</inStock>
+<Available> 700</Available>
+<inStock> 650</inStock>
 </Food>
 
-<Food>
+<Food category = "Fish Zinger Burger">
 <Name>Fish Zinger Burger </Name>
-<Available> 500</Available>
-<inStock> 750</inStock>
+<Available> 800</Available>
+<inStock> 70</inStock>
 </Food>
 
 
-<Food>
+<Food category = "Chicken  Broast">
 <Name>Chicken Broast </Name>
-<Available> 500</Available>
-<inStock> 750</inStock>
+<Available> 590</Available>
+<inStock> 450</inStock>
 </Food>
-<Food>
+
+<Food category = "Beef Burger">
+
 <Name>Beef Burger </Name>
-<Available> 500</Available>
-<inStock> 750</inStock>
+<Available> 50</Available>
+<inStock> 70</inStock>
 </Food>
 
 
-<Food>
+<Food category = "Chicken Burger">
 <Name>C </Name>
-<Available> 500</Available>
-<inStock> 750</inStock>
+<Available> 530</Available>
+<inStock> 50</inStock>
 </Food>
 
-<Food>
+<Food category = "Fish Burger">
 <Name>F</Name>
-<Available> 500</Available>
-<inStock> 750</inStock>
+<Available> 510</Available>
+<inStock> 73</inStock>
 </Food>
 
-<Food>
+<Food category = "Beef Burger">
 <Name>Chr </Name>
-<Available> 500</Available>
+<Available> 550</Available>
 <inStock> 750</inStock>
 </Food>
 
-<Food>
+<Food category = "Fish Burger">
 <Name>Fishurger </Name>
 <Available> 500</Available>
 <inStock> 750</inStock>

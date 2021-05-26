@@ -149,13 +149,27 @@ function getDoc(){
 //extracting and displaying xml file
 
 function findClass(xml){
-
+  
     var titleNode = xml.getElementsByTagName('Name');
     var Availablefoods = xml.getElementsByTagName('Available');
     var inStock = xml.getElementsByTagName('inStock');
+
+    var dataCtgory = document.getElementById('category').value;
+    
     for(i = 0; i<titleNode.length; i++){
+
+       
+
+        var xmlTag = xml.getElementsByTagName('Food');
+		var acquiredAttribs = xmlTag[i].attributes;
+		var reqAttr = acquiredAttribs.getNamedItem('category');
+        var reqVal = reqAttr.nodeValue;
+
+        if( reqVal == dataCtgory){
+
         var title = titleNode[i];
         var titleValue = title.firstChild.nodeValue;
+
 
         var myEl = document.createElement('p');
         var newText = titleValue;
@@ -214,6 +228,7 @@ function findClass(xml){
         cell.style.backgroundColor="white";
        
         cell.style.border="1px solid black";
+        } else{ }// end of if
         
     }
 
