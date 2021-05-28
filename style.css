@@ -1,17 +1,13 @@
 body{
 	background-image: url("fastfood.png");
-	background-size: 1380px 700px;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: center;
+	
 }
 
-#background{
-	z-index: 0;
-		background-image: url("fastfood.png");
-	background-size: 1380px 700px;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
+
 
 
 
