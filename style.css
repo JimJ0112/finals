@@ -828,3 +828,8 @@ body {
 	  display: block;
 	}
   }
+
+
+  tr, td{
+	  text-align: center;
+  }
