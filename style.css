@@ -790,6 +790,7 @@ textarea{
 	padding: 10px;
 	overflow-y: auto;	
 	overflow-x: auto;
+	z-index: 0;
 	
 }
 #menudetails_DataContainer{
@@ -799,12 +800,12 @@ textarea{
 	
 	overflow-y: auto;
 	overflow-x: auto;
-	
+	z-index: -1;
 }
 
 #dataTable{
 	width: 100%;
-	
+	z-index:0 ;
 	align-content: center;
 
 }
@@ -833,7 +834,7 @@ body {
   
   .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	
+	padding: 5px;
 	margin: 8px;
   }
   
