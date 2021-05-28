@@ -1,9 +1,11 @@
   //home part
 
-
+  // dom change color
     function ChangeColor(){
         document.getElementById('about_text').style.color="red";
     }
+
+  // dom shows modal and blurs background
   	function ShowModal1(){
     		var x = document.getElementById('modal1');
     		x.style.display = "inline";
@@ -40,6 +42,7 @@
         // end of home part
 
 
+        // sets image depending on the category
         //menu part
         function setImage(){
             var category = document.getElementById("category").value;
@@ -117,6 +120,7 @@
 // to requesting xml file
 function getDoc(){
 
+    // to verify if the browser has xmlHttpRequest
     if(window.XMLHttpRequest){
         request = new XMLHttpRequest();
 
@@ -128,11 +132,19 @@ function getDoc(){
 
     }   
 
+    // request query
     if(request){
+        // XMLHttpRequest.open ( "type" , "location / directory" , true if asynch false if synch );
         request.open("GET" , "Foods.xml" , true);
+        // XMLHttpRequest status 
+        //onreadystatechange - calls a function when the ready state changes
         request.onreadystatechange = function(){
+            // readystate = 4 means request finished - response ready
+            //request status = 200 means request successful
             if(request.readyState == 4 && request.status == 200){
+            // puts the xml file to a variable 
                 var xmlDocument = request.responseXML;
+            // method that extracts and displays data from xml to the html
             findClass(xmlDocument);
 
                 //to display text
