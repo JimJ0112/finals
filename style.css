@@ -5,6 +5,14 @@ body{
 	background-attachment: fixed;
 }
 
+#background{
+	z-index: 0;
+		background-image: url("fastfood.png");
+	background-size: 1380px 700px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 
 
 .backgroundDiv img{
