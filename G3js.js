@@ -3,6 +3,7 @@
   // dom change color
     function ChangeColor(){
         document.getElementById('about_text').style.color="red";
+        document.getElementById('ChangeColor').style.visibility = "hidden";
     }
 
   // dom shows modal and blurs background
