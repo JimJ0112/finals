@@ -226,7 +226,7 @@ function findClass(xml){
         table.style.overflow = "auto";
         dataContainer.style.overflow = "auto";
         cell.style.backgroundColor="white";
-       
+        table.style.backgroundColor="white";
         cell.style.border="1px solid black";
         } else{ }// end of if
         
