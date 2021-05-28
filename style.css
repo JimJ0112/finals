@@ -1,6 +1,8 @@
 body{
-	background-image: url("Background.jpg");
+	background-image: url("fastfood.png");
 	background-size: 1380px 700px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 
@@ -48,6 +50,10 @@ body{
 }
 #ChangeColor:hover{
 	background-color:rgba(236, 168, 42, 0.486) ;
+}
+
+select{border: 3px solid yellow;
+cursor:pointer;
 }
 
 /*Modals*/
